@@ -57,6 +57,8 @@ try {
         <h3 class="mt-4">Welcome, <?php echo htmlspecialchars($row['username']); ?></h3>
         
         <a href="logout.php" class="btn btn-danger">Logout</a>
+        <a href="feedback.php" class="btn btn-primary">Feedback</a>
+
     </div>
 </body>
 </html>
